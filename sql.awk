@@ -116,7 +116,7 @@ function orderBy(column, file) {
    }
    printf "\n"
    
-   printf "column:%s",column
+   #printf "column:%s",column
    # find target column 
    for (j in header) {
      if (header[j] == column) {
