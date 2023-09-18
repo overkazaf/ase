@@ -139,7 +139,6 @@ function showHeader(file) {
 BEGIN {
    sql = ARGV[1]
    file = ARGV[2]
-   print file
    delete ARGV[1]
    delete ARGV[2]
    # preparse

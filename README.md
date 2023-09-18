@@ -17,3 +17,18 @@ awk -f sql.awk "HEADER" data.csv
 ```shell
 awk -f sql.awk "SELECT name,age" data.csv
 ```
+
+## where condition
+```shell
+awk -f sql.awk "WHERE age=20" data.csv
+```
+
+## group by
+```shell
+awk -f sql.awk "GROUP BY age" data.csv
+```
+
+## order by
+```shell
+awk -f sql.awk "ORDER BY age" data.csv
+```
